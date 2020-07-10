@@ -45,13 +45,15 @@ header ul:after {
 /*fin de la partie entete*/
 /*arrangement du corps de la page*/
 .main-header img {
-  width: 30%;
-  padding-top: 80px;
+  width: 25%;
+  position: relative;
+  top:50px;
+
     /* image de l'entete */
 }
 .about {
   font-size: 15px;
-  height: auto;
+
 /* partie about */
 }
 /* arrangement de la partie fonction */
