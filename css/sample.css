@@ -5,44 +5,88 @@ html {
 body {
   text-align: center;
 }
-.main-header{
+.main-header {
   padding-bottom: 15%;
   width: 100%;
   background-size: cover;
+  background-image: url("../images/header.jpg");
   background-attachment: fixed;
-  background-image: url("images/header.jpg");
 }
-/* ここから */
+/*implementation de la partie entete*/
 header {
-}
-header ul {
+  background-color: black;
+  margin:0;
 
+}
+header ul  {
+  margin: 0;
+  padding: 0;
 }
 header ul a {
+  color:#fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
 }
 header li {
+  list-style: none;
 }
-
 header ul:after {
+  content: "";
+  display: block;
+  clear: both;
 }
-/* l'implémentation de la partie d'en-tête jusqu'ici */
+.right{
+  float: right;
+}
+.left{
+  float:left;
+}
+/*fin de la partie entete*/
+/*arrangement du corps de la page*/
 .main-header img {
-
-}
-/* Mise en œuvre de l'image principale (image des caractères blancs "Achieve") */ /* Mise en œuvre de l'image principale (image des caractères blancs "Achieve")
+  width: 30%;
+  padding-top: 80px;
+    /* image de l'entete */
 }
 .about {
-/* Mise en œuvre de la partie "About Achieve */
+  font-size: 15px;
+  height: auto;
+/* partie about */
 }
-/* ここから */
+/* arrangement de la partie fonction */
 .function {
+  background-color:#B0C0E4;
+  margin: auto;
+  padding: 10px;
+
 }
 .function-images {
+display:flex;
+justify-content:center;
+}
+.function-image img{
+width: 50%;
 }
 .function-image {
+margin: auto;
 }
-/* Voici la partie fonctionnelle de la mise en œuvre */
-footer {
-/* Mise en œuvre du pied de page */
+/* fin de la partie fonction */
+
+
+
+/*implementation du footer*/
+footer p {
+  font-size: 12px;
+  color: #fff;
+  padding:0px;
+  margin: 0;
+  display:block;
+
 }
-/* La description du css ici n'est qu'un indice, donc le Si vous souhaitez mettre en œuvre le code sans suivre la description, vous pouvez le faire comme vous le souhaitez. Toute implémentation qui répond aux exigences de la mission et qui est jugée d'un certain niveau de qualité de code passera l'examen. devient. */
+footer{
+  height: 50px;
+  background-color: #03111F;
+  clear: both;
+  padding:20px;
+}
