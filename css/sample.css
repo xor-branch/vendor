@@ -1,16 +1,48 @@
-html { position : relative ; min-height : 100% ;}
-body { text-align : center ;}
-.main-header { padding-bottom : 15% ; width : 100% ; background-size : cover ; background-image : url (​ ​"../images/header.jpg"​ ​) ; background-attachment : fixed ;}
-/* from here */
-​ ​header {}
-header ​ ​ul {}
-header ​ ​ul ​ ​a {}
-header ​ ​li {}
-header ​ ​ul​ ​: after {} / * This is the implementation of the header part * /
-.main-header ​ ​img { / * Implementation of main image (image of white "Achieve" character) part * / }
-.about { / * Implementation of About Achieve part * / }
-/* from here */
-​ ​.function {}
-.function-images {}
-.function-image {} / * This is the implementation of the function part * /
-footer { / * Implementation of footer part * /
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header{
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("images/header.jpg");
+}
+/* ここから */
+header {
+}
+header ul {
+
+}
+header ul a {
+}
+header li {
+}
+
+header ul:after {
+}
+/* l'implémentation de la partie d'en-tête jusqu'ici */
+.main-header img {
+
+}
+/* Mise en œuvre de l'image principale (image des caractères blancs "Achieve") */ /* Mise en œuvre de l'image principale (image des caractères blancs "Achieve")
+}
+.about {
+/* Mise en œuvre de la partie "About Achieve */
+}
+/* ここから */
+.function {
+}
+.function-images {
+}
+.function-image {
+}
+/* Voici la partie fonctionnelle de la mise en œuvre */
+footer {
+/* Mise en œuvre du pied de page */
+}
+/* La description du css ici n'est qu'un indice, donc le Si vous souhaitez mettre en œuvre le code sans suivre la description, vous pouvez le faire comme vous le souhaitez. Toute implémentation qui répond aux exigences de la mission et qui est jugée d'un certain niveau de qualité de code passera l'examen. devient. */
